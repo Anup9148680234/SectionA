@@ -1,1 +1,1 @@
-###Section A
+Section A
