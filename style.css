@@ -1,0 +1,133 @@
+/* Default Bootstrap CSS from Pricing Example*/
+  html {
+    font-size: 14px;
+    
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  .container {
+    max-width: 960px;
+  }
+  .pricing-header {
+    max-width: 700px;
+  }
+  .card-deck .card {
+    min-width: 220px;
+  }
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+/* Default Bootstrap CSS from Pricing Example*/
+
+
+/* Form Button */
+  body{
+    overflow-y: auto;
+  }
+  #submitForm{
+    background-color: white;
+  }
+  #submitForm:hover{
+    background-color: #007bff;
+  }
+/* Form Button */
+
+/* Modal Background */
+  .main_row{
+    padding: 10vh 5vw;
+    position: relative;
+    width: 70vw;
+    left: 15vw;
+    
+  }
+  .col{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .row{
+    margin-top: 4vh;
+  }
+  #pForm{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(188, 188, 188);
+  }
+/* Modal Background */
+
+
+/* Close Button */
+  #closeForm{
+    margin-left: 60vw;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+  }
+  #closeForm:hover{
+    background-color: #007bff;
+    color: white;
+  }
+/* Close Button */
+
+
+/* Slider */
+  .slider-container{
+    width: 65vw;
+    margin-left: 17vw;
+  }
+  .slider{
+    z-index: 1;
+    width: 100%;
+  }
+  .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .slider-circles {
+    z-index: -10;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -22px;
+    
+  }
+  .circle {
+    z-index: -10;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: 2px solid rgb(188, 188, 188);
+  }
+/* Slider */
+
+/* Card Highlight */
+  .highlighted{
+    box-shadow: 5px 4px 2px 2px #007bff;
+    border: 1px solid #007bff;
+    transform: translateY(-4px);
+    transition: 0.6s;
+  }
+/* Card Highlight */
+
+/* Scrollbar - Simple Primary colored scrollbar */
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    outline: 1px solid #007bff;
+  }
+/* Scrollbar */
